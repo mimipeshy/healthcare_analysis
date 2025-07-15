@@ -56,19 +56,16 @@ This project explores a real-world healthcare dataset containing over 100,000 ap
 - Generate actionable insights to help healthcare facilities reduce no-show rates
 - Provide a foundation for predictive modeling or operational decision-making in healthcare appointment systems 
 
-<!-- ## Dataset Description
+## Dataset Description
+- **Source**: [Kaggle - Medical Appointment No Shows](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
+- **Rows**: 110,000+records
 
-This dataset simulates 12 months of usage from Jan–Dec 2024 and includes four related tables:
-
-| Table Name       | Columns                                | Purpose |
-|------------------|----------------------------------------|---------|
-| quicksave_users  | user_id, signup_date, user_type, plan_name | User demographics & subscription type |
-| transactions     | transaction_id, user_id, date, amount, fee_amount, goal_id | Micro-savings logs + fee generation |
-| subscriptions    | user_id, start_date, end_date, fee_amount | Premium subscription tracking |
-| goals            | goal_id, goal_name, target_amount | Goal categorization and target logic |
-
-Note: This dataset was randomly generated. -->
-
+| Table Name       | Description                       | 
+|------------------|-----------------------------------|
+| PatientId        | Unique identifier for the patient | 
+| AppointmentID     | Unique appointment ID | 
+| Gender    | Male or Female | 
+| ScheduledDay            | Date the appointment was scheduled | 
 
 
 <!-- ## Tools & Technologies
