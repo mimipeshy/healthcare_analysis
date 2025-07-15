@@ -49,13 +49,12 @@ With a focused intervention strategy, clinics can reduce their no-show rate, imp
 
 This project explores a real-world healthcare dataset containing over 100,000 appointment records to identify the root causes of patient no-shows. By leveraging SQL for data cleaning and transformation, and conducting exploratory data analysis (EDA), the goal is to uncover patterns across demographics, scheduling behavior, and communication touchpoints. The outcome is to build actionable insights that healthcare providers can use to reduce missed appointments, improve operational efficiency, and enhance patient experience.
 
-<!-- ## Objective
-
-- Calculate total revenue from fee-based and subscription income  
-- Analyze monetization by user plan (Free vs Premium)  
-- Segment users based on profitability  
-- Estimate per-user ROI using assumed operational costs  
-- Support business decisions with data-backed recommendations   -->
+## Objective
+- Identify the key factors associated with patient no-shows
+- Quantify the influence of variables such as waiting time, SMS reminders, age, and chronic conditions
+- Create a clean, analysis-ready dataset through rigorous data wrangling
+- Generate actionable insights to help healthcare facilities reduce no-show rates
+- Provide a foundation for predictive modeling or operational decision-making in healthcare appointment systems 
 
 <!-- ## Dataset Description
 
