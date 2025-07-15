@@ -63,10 +63,19 @@ This project explores a real-world healthcare dataset containing over 100,000 ap
 | Table Name       | Description                       | 
 |------------------|-----------------------------------|
 | PatientId        | Unique identifier for the patient | 
-| AppointmentID     | Unique appointment ID | 
-| Gender    | Male or Female | 
-| ScheduledDay            | Date the appointment was scheduled | 
-
+| AppointmentID    | Unique appointment ID | 
+| Gender           | Male or Female | 
+| ScheduledDay     | Date the appointment was scheduled | 
+| AppointmentDay   | Actual day of the appointment |
+| Age	           | Age of the patient |
+| Neighbourhood	   | Location of the clinic |
+| Scholarship	   | 1 = enrolled in welfare program |
+| Hypertension	   | 1 = has hypertension |
+| Diabetes	       | 1 = has diabetes |
+| Alcoholism	   | 1 = recorded as alcoholic |
+| Handcap	       | 0–4 (degree of disability) |
+| SMS_received	   | 1 = patient got an SMS reminder |
+| No-show	       | 1 = didn’t show up, 0 = came to the appointment |
 
 <!-- ## Tools & Technologies
 
