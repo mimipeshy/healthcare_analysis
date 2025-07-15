@@ -1,4 +1,4 @@
-# No-Show Appointments Analysis for Healthcare Optimization
+# 🩺 Predicting Patient No-Shows: A Healthcare Analytics Project
 
 I analyzed over 100K medical appointments to uncover why patients miss their scheduled visits. Using SQL and data storytelling, I identified key patterns,like longer wait times and lack of SMS reminders — that strongly predict no-shows. My insights help clinics reduce missed appointments, optimize staff scheduling, and ultimately improve patient care. It’s a small shift in data — but a big impact on operations.
 
@@ -10,8 +10,8 @@ I analyzed over 100K medical appointments to uncover why patients miss their sch
 
 - [Project Overview](#project-overview)  
 - [Problem Statement](#problem-statement)  
-<!-- - [Objective](#objective)   -->
-<!-- - [Dataset Description](#dataset-description)   -->
+- [Objective](#objective)  
+- [Dataset Description](#dataset-description)  
 <!-- - [Tools & Technologies](#tools--technologies)   -->
 <!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
 <!-- - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)   -->
