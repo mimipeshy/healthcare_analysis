@@ -5,29 +5,29 @@ I analyzed over 100K medical appointments to uncover why patients miss their sch
 
 ![image]()
 
-<!-- <details>
+<details>
 <summary><strong>📑 Table of Contents</strong></summary>
 
 - [Project Overview](#project-overview)  
 - [Problem Statement](#problem-statement)  
-- [Objective](#objective)  
-- [Dataset Description](#dataset-description)  
-- [Tools & Technologies](#tools--technologies)  
-- [Data Cleaning & Preparation](#data-cleaning--preparation)  
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-- [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)  
-  - [Query 1: Total Revenue](#query-1-total-revenue-from-transaction-and-subscription-fees)  
-  - [Query 2: Revenue by Plan Type](#query-2-revenue-breakdown-by-plan-type-free-vs-premium)  
-  - [Query 3: Profitability Classification](#query-3-profitability-classification-using-cte--case)  
-  - [Query 4: Estimated ROI per User](#query-4-estimated-roi-per-user-assuming-5-costuser)  
-- [Data Visualization / Dashboard](#data-visualization--dashboard)  
-- [Recommendations](#recommendations)  
-- [Challenges Faced](#challenges-faced)  
-- [Conclusion](#conclusion)  
-- [Next Steps / Future Work](#next-steps--future-work)  
+<!-- - [Objective](#objective)   -->
+<!-- - [Dataset Description](#dataset-description)   -->
+<!-- - [Tools & Technologies](#tools--technologies)   -->
+<!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
+<!-- - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)   -->
+<!-- - [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)   -->
+  <!-- - [Query 1: Total Revenue](#query-1-total-revenue-from-transaction-and-subscription-fees)   -->
+  <!-- - [Query 2: Revenue by Plan Type](#query-2-revenue-breakdown-by-plan-type-free-vs-premium)   -->
+  <!-- - [Query 3: Profitability Classification](#query-3-profitability-classification-using-cte--case)   -->
+  <!-- - [Query 4: Estimated ROI per User](#query-4-estimated-roi-per-user-assuming-5-costuser)   -->
+<!-- - [Data Visualization / Dashboard](#data-visualization--dashboard)   -->
+<!-- - [Recommendations](#recommendations)   -->
+<!-- - [Challenges Faced](#challenges-faced)   -->
+<!-- - [Conclusion](#conclusion)   -->
+<!-- - [Next Steps / Future Work](#next-steps--future-work)   -->
 - [Author & License](#author--license)
 
-</details> -->
+</details>
 
 ## Project Overview
 
@@ -45,22 +45,19 @@ The insights derived empower healthcare providers to:
 
 With a focused intervention strategy, clinics can reduce their no-show rate, improve patient flow, and deliver better care at lower cost.
 
-<!-- ## Problem Statement
+## Problem Statement
 
-The leadership team at Ziwatech needs to determine:
-- Is QuickSave generating enough revenue to continue?
-- Are user segments cost-effective?
-- Which features or segments should be optimized, scaled, or phased out?
+This project explores a real-world healthcare dataset containing over 100,000 appointment records to identify the root causes of patient no-shows. By leveraging SQL for data cleaning and transformation, and conducting exploratory data analysis (EDA), the goal is to uncover patterns across demographics, scheduling behavior, and communication touchpoints. The outcome is to build actionable insights that healthcare providers can use to reduce missed appointments, improve operational efficiency, and enhance patient experience.
 
-## Objective
+<!-- ## Objective
 
 - Calculate total revenue from fee-based and subscription income  
 - Analyze monetization by user plan (Free vs Premium)  
 - Segment users based on profitability  
 - Estimate per-user ROI using assumed operational costs  
-- Support business decisions with data-backed recommendations  
+- Support business decisions with data-backed recommendations   -->
 
-## Dataset Description
+<!-- ## Dataset Description
 
 This dataset simulates 12 months of usage from Jan–Dec 2024 and includes four related tables:
 
@@ -71,33 +68,33 @@ This dataset simulates 12 months of usage from Jan–Dec 2024 and includes four 
 | subscriptions    | user_id, start_date, end_date, fee_amount | Premium subscription tracking |
 | goals            | goal_id, goal_name, target_amount | Goal categorization and target logic |
 
-Note: This dataset was randomly generated.
+Note: This dataset was randomly generated. -->
 
 
 
-## Tools & Technologies
+<!-- ## Tools & Technologies
 
 - MYSQL – querying, joins, CTEs, CASE logic  
 - Power BI – visualization, performance dashboard  
 - Excel – KPI tracking and raw data cross-checks  
-- GitHub – project publishing and documentation
+- GitHub – project publishing and documentation -->
 
-## Data Cleaning & Preparation
+<!-- ## Data Cleaning & Preparation
 
 - Ensured referential integrity across user_id and goal_id  
 - Validated date formats and ensured complete monthly data  
 - Checked for missing values in financial columns (fee_amount)  
-- Verified consistent value ranges (e.g., realistic goal targets and fees)
+- Verified consistent value ranges (e.g., realistic goal targets and fees) -->
 
-## Exploratory Data Analysis (EDA)
+<!-- ## Exploratory Data Analysis (EDA)
 
 - Monthly transaction and subscription volume trends  
 - Distribution of users by plan and user type  
 - Outlier detection in revenue and goal target amounts  
-- Correlation between target amount and transaction frequency
+- Correlation between target amount and transaction frequency -->
 
 
-## Key SQL Queries & Business Insights
+<!-- ## Key SQL Queries & Business Insights
 
 ### Query 1: Total Revenue from Transaction and Subscription Fees
 
@@ -109,9 +106,9 @@ Note: This dataset was randomly generated.
 QuickSave generated $4,584.12 in total revenue:
 - $3,788.78 from transaction fees  
 - $795.34 from premium subscriptions  
-This indicates a working hybrid model, though transactions dominate.
+This indicates a working hybrid model, though transactions dominate. -->
 
-### Query 2: Revenue Breakdown by Plan Type (Free vs Premium)
+<!-- ### Query 2: Revenue Breakdown by Plan Type (Free vs Premium)
 
 **Purpose:** Evaluate how user plans contribute to overall revenue.
 
@@ -147,10 +144,10 @@ Most users incurred more cost than revenue, signaling retention or engagement ch
 **Insight:**  
 - ROI leaders generated $40–45+ per user in value  
 - However, about 63% of users were unprofitable (ROI < 0)  
-These results reinforce the need for better segmentation, smarter onboarding, and more Premium upgrades.
+These results reinforce the need for better segmentation, smarter onboarding, and more Premium upgrades. -->
 
 
-## Data Visualization / Dashboard
+<!-- ## Data Visualization / Dashboard
 
 An interactive Power BI dashboard was created to summarize:
 - Monthly revenue and user activity  
@@ -161,35 +158,35 @@ An interactive Power BI dashboard was created to summarize:
 
 ![front](https://github.com/user-attachments/assets/b988c40a-adc8-459b-b485-d565346a5c01)
 
-https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60
+https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60 -->
 
-## Recommendations
+<!-- ## Recommendations
 
 1. Scale Premium acquisition – high ARPU and ROI per user  
 2. Target Free users with upsell campaigns  
 3. Streamline cost-to-serve operations for low-value users  
 4. Expand focus on top-performing goals (e.g., Retirement, Education)  
-5. Monitor break-even ratio quarterly to track sustainability
+5. Monitor break-even ratio quarterly to track sustainability -->
 
-## Challenges Faced
+<!-- ## Challenges Faced
 
 - Interpreting user value with flat cost assumptions  
 - Mock dataset lacked nuanced user behavior (e.g., churn signals)  
-- Maintaining consistent joins and CTE logic across all queries  
+- Maintaining consistent joins and CTE logic across all queries   -->
 
-## Conclusion
+<!-- ## Conclusion
 
 This analysis shows QuickSave has strong potential via Premium users and certain goal types, but currently relies on a small percentage of users for most revenue.  
-Data supports continued development with product optimization and targeted marketing.
+Data supports continued development with product optimization and targeted marketing. -->
 
-## Next Steps / Future Work
+<!-- ## Next Steps / Future Work
 
 - Add churn and lifetime value modeling  
 - Automate profitability scoring using SQL procedures  
 - Introduce clustering for user behavior segmentation  
-- Develop goal conversion funnels and engagement scoring
+- Develop goal conversion funnels and engagement scoring -->
 
-## Author & License
+<!-- ## Author & License
 
 This project was created as part of a professional portfolio to demonstrate practical financial analytics using SQL & Power BI.
 
@@ -197,5 +194,5 @@ This project was created as part of a professional portfolio to demonstrate prac
 - GitHub: [https://github.com/wanja-susan](https://github.com/wanja-susan)    
 - LinkedIn: [Susan Wanja Kariuki](https://www.linkedin.com/in/susan-wanja-1b63a6234/)  
 
-© 2025 | Susan Wanja | Data Analytics Portfolio
- -->
+© 2025 | Susan Wanja | Data Analytics Portfolio -->
+
