@@ -12,7 +12,7 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [Key Questions](#key-questions) 
 - [Dataset Description](#dataset-description)  
 - [Data Cleaning](#data-cleaning) 
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda) 
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis) 
  
 <!-- - [Tools & Technologies](#tools--technologies)   -->
 <!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
