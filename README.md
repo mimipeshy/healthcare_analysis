@@ -79,7 +79,8 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 ✔️ Created views for clean analysis
 
-## 📊 Exploratory Data Analysis 
+## Exploratory Data Analysis 
+
 ✅ Key Findings
 | Metric           | Insights                      | 
 |------------------|-----------------------------------|
