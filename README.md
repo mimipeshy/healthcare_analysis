@@ -1,6 +1,6 @@
-# 🩺 Predicting Patient No-Shows: A Healthcare Analytics Project
+# 🏥 Patient No-Show Analysis – SQL + Looker Studio
 
-I analyzed over 100K medical appointments to uncover why patients miss their scheduled visits. Using SQL and data storytelling, I identified key patterns,like longer wait times and lack of SMS reminders — that strongly predict no-shows. My insights help clinics reduce missed appointments, optimize staff scheduling, and ultimately improve patient care. It’s a small shift in data — but a big impact on operations.
+This project analyzes a real-world dataset from Brazilian medical appointments to uncover patterns behind patient no-shows. Using SQL in BigQuery and visualized through Looker Studio, the goal is to provide actionable insights for improving patient attendance.
 
 
 ![image]()
@@ -31,19 +31,8 @@ I analyzed over 100K medical appointments to uncover why patients miss their sch
 
 ## Project Overview
 
-Missed appointments in healthcare create operational inefficiencies, increase wait times for other patients, and cost clinics thousands in lost revenue annually. This project analyzes over 100K medical appointments to uncover the behavioral and demographic patterns behind patient no-shows.
+To investigate behavioral and logistical factors contributing to patient no-shows, and provide data-driven recommendations for reducing missed appointments.
 
-Using exploratory data analysis and SQL-based data cleaning, we identified key drivers such as waiting time, age, chronic conditions, and SMS reminders that significantly influence patient attendance.
-
-The insights derived empower healthcare providers to:
-
-- Predict and preempt no-shows using simple flags like waiting days or absence of reminders.
-
-- Tailor communication strategies for high-risk patients.
-
-- Optimize resource allocation by overbooking intelligently or shifting capacity where needed.
-
-With a focused intervention strategy, clinics can reduce their no-show rate, improve patient flow, and deliver better care at lower cost.
 
 ## Problem Statement
 
