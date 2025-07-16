@@ -12,9 +12,8 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [Key Questions](#key-questions) 
 - [Dataset Description](#dataset-description)  
 - [Data Cleaning](#data-cleaning) 
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis) 
- 
-<!-- - [Tools & Technologies](#tools--technologies)   -->
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)  
+- [SQL Techniques Used](#sql-techniques-used)  
 <!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
 <!-- - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)   -->
 <!-- - [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)   -->
@@ -91,12 +90,17 @@ To investigate behavioral and logistical factors contributing to patient no-show
 | 🩺 Health Conditions   | Not strong predictors of no-shows — behavior > medical|
 
 
-<!-- ## Tools & Technologies
+## SQL Techniques Used
 
-- MYSQL – querying, joins, CTEs, CASE logic  
-- Power BI – visualization, performance dashboard  
-- Excel – KPI tracking and raw data cross-checks  
-- GitHub – project publishing and documentation -->
+- Common Table Expressions (CTEs)
+
+- CASE statements for bucketing and formatting
+
+- Aggregations, groupings, and joins
+
+- Derived metrics (no-show rate, wait time, age groups)
+
+- Conditional formatting for visuals
 
 <!-- ## Data Cleaning & Preparation
 
