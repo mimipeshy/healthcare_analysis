@@ -9,9 +9,10 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 <summary><strong>📑 Table of Contents</strong></summary>
 
 - [Project Overview](#project-overview)  
-- [Problem Statement](#problem-statement)  
-- [Objective](#objective)  
+- [Key Questions](#key-questions) 
 - [Dataset Description](#dataset-description)  
+- [Data Cleaning](#data-cleaning)  
+ 
 <!-- - [Tools & Technologies](#tools--technologies)   -->
 <!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
 <!-- - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)   -->
@@ -45,12 +46,6 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 - Do health conditions influence attendance?
 
-## Objective
-- Identify the key factors associated with patient no-shows
-- Quantify the influence of variables such as waiting time, SMS reminders, age, and chronic conditions
-- Create a clean, analysis-ready dataset through rigorous data wrangling
-- Generate actionable insights to help healthcare facilities reduce no-show rates
-- Provide a foundation for predictive modeling or operational decision-making in healthcare appointment systems 
 
 ## Dataset Description
 - **Source**: [Kaggle - Medical Appointment No Shows](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
@@ -72,6 +67,16 @@ To investigate behavioral and logistical factors contributing to patient no-show
 | Handcap	       | 0–4 (degree of disability) |
 | SMS_received	   | 1 = patient got an SMS reminder |
 | No-show	       | 1 = didn’t show up, 0 = came to the appointment |
+
+
+## Data Cleaning (Day 1)
+✔️ Removed duplicates
+
+✔️ Handled nulls and incorrect dates
+
+✔️ Normalized column types
+
+✔️ Created views for clean analysis
 
 <!-- ## Tools & Technologies
 
