@@ -11,7 +11,8 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [Project Overview](#project-overview)  
 - [Key Questions](#key-questions) 
 - [Dataset Description](#dataset-description)  
-- [Data Cleaning](#data-cleaning)  
+- [Data Cleaning](#data-cleaning) 
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda) 
  
 <!-- - [Tools & Technologies](#tools--technologies)   -->
 <!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
@@ -69,7 +70,7 @@ To investigate behavioral and logistical factors contributing to patient no-show
 | No-show	       | 1 = didn’t show up, 0 = came to the appointment |
 
 
-## Data Cleaning (Day 1)
+## Data Cleaning 
 ✔️ Removed duplicates
 
 ✔️ Handled nulls and incorrect dates
@@ -77,6 +78,17 @@ To investigate behavioral and logistical factors contributing to patient no-show
 ✔️ Normalized column types
 
 ✔️ Created views for clean analysis
+
+## 📊 Exploratory Data Analysis 
+✅ Key Findings
+| Metric           | Insights                      | 
+|------------------|-----------------------------------|
+| 📅 Day of Week   | Monday, Tuesday, Wednesday, and Friday had high no-show rates | 
+| 📲 SMS Reminder  | Surprisingly, those who received SMS reminders had more no-shows | 
+| ⏳ Wait Time     | Longer wait time = higher no-show rate| 
+| 🧒 Young Adults  | Most at-risk age group for missing appointments | 
+| 🩺 Health Conditions   | Not strong predictors of no-shows — behavior > medical|
+
 
 <!-- ## Tools & Technologies
 
