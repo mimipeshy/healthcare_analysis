@@ -14,9 +14,8 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [Data Cleaning](#data-cleaning) 
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)  
 - [SQL Techniques Used](#sql-techniques-used)  
-<!-- - [Data Cleaning & Preparation](#data-cleaning--preparation)   -->
-<!-- - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)   -->
-<!-- - [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)   -->
+- [Tools Used](#tools-used)
+- [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)  
   <!-- - [Query 1: Total Revenue](#query-1-total-revenue-from-transaction-and-subscription-fees)   -->
   <!-- - [Query 2: Revenue by Plan Type](#query-2-revenue-breakdown-by-plan-type-free-vs-premium)   -->
   <!-- - [Query 3: Profitability Classification](#query-3-profitability-classification-using-cte--case)   -->
@@ -101,6 +100,14 @@ To investigate behavioral and logistical factors contributing to patient no-show
 - Derived metrics (no-show rate, wait time, age groups)
 
 - Conditional formatting for visuals
+
+## Tools Used
+- Google BigQuery for data cleaning and transformation
+
+- Looker Studio for visualization
+
+
+## Key SQL Queries & Business Insights
 
 <!-- ## Data Cleaning & Preparation
 
