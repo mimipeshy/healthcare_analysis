@@ -34,9 +34,16 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 To investigate behavioral and logistical factors contributing to patient no-shows, and provide data-driven recommendations for reducing missed appointments.
 
 
-## Problem Statement
+## Key Questions
+- What days of the week have the highest no-show rates?
 
-This project explores a real-world healthcare dataset containing over 100,000 appointment records to identify the root causes of patient no-shows. By leveraging SQL for data cleaning and transformation, and conducting exploratory data analysis (EDA), the goal is to uncover patterns across demographics, scheduling behavior, and communication touchpoints. The outcome is to build actionable insights that healthcare providers can use to reduce missed appointments, improve operational efficiency, and enhance patient experience.
+- Does receiving an SMS reminder reduce no-shows?
+
+- Are younger patients more likely to miss appointments?
+
+- Is there a correlation between wait time and no-shows?
+
+- Do health conditions influence attendance?
 
 ## Objective
 - Identify the key factors associated with patient no-shows
