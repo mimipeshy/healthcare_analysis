@@ -109,6 +109,28 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 ## Key SQL Queries & Business Insights
 
+## 📌 Final Insights
+
+- 28% no-show rate for wait time >7 days vs 14% otherwise
+- SMS reminders reduce no-shows by nearly 50%
+- Seniors and teenagers are at higher risk of missing appointments
+
+## 🎯 Recommendations
+
+- Ensure SMS reminders are sent to all patients
+- Prioritize fast appointments for seniors and teens
+- Investigate telehealth solutions for those with chronic conditions
+
+## 📈 Dashboard Link
+
+👉 [Live Looker Studio Report](#)
+
+## 🧠 Next Steps
+
+- Build a logistic regression model
+- A/B test reminder strategies
+
+
 <!-- ## Data Cleaning & Preparation
 
 - Ensured referential integrity across user_id and goal_id  
