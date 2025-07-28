@@ -182,7 +182,7 @@ A Looker Studio dashboard was created to summarize:
 - No-Show Rate by SMS Reminder	i.e Compare those who got reminders vs. not 
 - No-Show Rate by Wait Time Bracket i.e	% missed based on wait duration
 
-![front](https://github.com/user-attachments/assets/b988c40a-adc8-459b-b485-d565346a5c01)
+![front](https://lookerstudio.google.com/s/hg8QbvC6mmc)
 
 https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60
 
