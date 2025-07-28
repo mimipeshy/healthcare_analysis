@@ -175,12 +175,12 @@ These results reinforce the need for better segmentation, smarter onboarding, an
 
 ## Data Visualization / Dashboard
 
-An interactive Power BI dashboard was created to summarize:
-- Monthly revenue and user activity  
-- Revenue by plan and user type  
-- Goal performance (e.g., Home Renovation, Education)  
-- Break-even analysis  
-- Top users by ROI
+A Looker Studio dashboard was created to summarize:
+- Overall No-Show Rate	i.e % of total appointments missed
+- No-Show Rate by Day of Week	i.e % missed per weekday
+- No-Show Rate by Age Group i.e	% missed by age segments
+- No-Show Rate by SMS Reminder	i.e Compare those who got reminders vs. not 
+- No-Show Rate by Wait Time Bracket i.e	% missed based on wait duration
 
 ![front](https://github.com/user-attachments/assets/b988c40a-adc8-459b-b485-d565346a5c01)
 
