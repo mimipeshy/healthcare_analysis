@@ -107,30 +107,6 @@ To investigate behavioral and logistical factors contributing to patient no-show
 - Looker Studio for visualization
 
 
-## Key SQL Queries & Business Insights
-
-## 📌 Final Insights
-
-- 28% no-show rate for wait time >7 days vs 14% otherwise
-- SMS reminders reduce no-shows by nearly 50%
-- Seniors and teenagers are at higher risk of missing appointments
-
-## 🎯 Recommendations
-
-- Ensure SMS reminders are sent to all patients
-- Prioritize fast appointments for seniors and teens
-- Investigate telehealth solutions for those with chronic conditions
-
-## 📈 Dashboard Link
-
-👉 [Live Looker Studio Report](#)
-
-## 🧠 Next Steps
-
-- Build a logistic regression model
-- A/B test reminder strategies
-
-
 <!-- ## Data Cleaning & Preparation
 
 - Ensured referential integrity across user_id and goal_id  
@@ -146,21 +122,19 @@ To investigate behavioral and logistical factors contributing to patient no-show
 - Correlation between target amount and transaction frequency -->
 
 
-<!-- ## Key SQL Queries & Business Insights
+## Key SQL Queries & Business Insights
 
-### Query 1: Total Revenue from Transaction and Subscription Fees
+### Query 1: Wait Time (Days Between Booking and Appointment)
 
-**Purpose:** Measure the total income QuickSave generated in 2024.
+**Purpose:** Measure the number o waiting days between scheduled date and appointment date
 
 ![image](https://github.com/user-attachments/assets/b7d0a92f-85c7-4b7e-8b96-69b47944ec38)
 
 **Insight:**  
-QuickSave generated $4,584.12 in total revenue:
-- $3,788.78 from transaction fees  
-- $795.34 from premium subscriptions  
-This indicates a working hybrid model, though transactions dominate. -->
+- Longer wait times correlated with higher no-show rates.
+- Patients who waited more than 7 days had nearly double the no-show rate (28%) compared to those with shorter wait times.
 
-<!-- ### Query 2: Revenue Breakdown by Plan Type (Free vs Premium)
+### Query 2: Revenue Breakdown by Plan Type (Free vs Premium)
 
 **Purpose:** Evaluate how user plans contribute to overall revenue.
 
@@ -196,10 +170,10 @@ Most users incurred more cost than revenue, signaling retention or engagement ch
 **Insight:**  
 - ROI leaders generated $40–45+ per user in value  
 - However, about 63% of users were unprofitable (ROI < 0)  
-These results reinforce the need for better segmentation, smarter onboarding, and more Premium upgrades. -->
+These results reinforce the need for better segmentation, smarter onboarding, and more Premium upgrades.
 
 
-<!-- ## Data Visualization / Dashboard
+## Data Visualization / Dashboard
 
 An interactive Power BI dashboard was created to summarize:
 - Monthly revenue and user activity  
@@ -210,7 +184,7 @@ An interactive Power BI dashboard was created to summarize:
 
 ![front](https://github.com/user-attachments/assets/b988c40a-adc8-459b-b485-d565346a5c01)
 
-https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60 -->
+https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60
 
 <!-- ## Recommendations
 
