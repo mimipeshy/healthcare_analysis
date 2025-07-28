@@ -181,6 +181,7 @@ A Looker Studio dashboard was created to summarize:
 - No-Show Rate by Age Group i.e	% missed by age segments
 - No-Show Rate by SMS Reminder	i.e Compare those who got reminders vs. not 
 - No-Show Rate by Wait Time Bracket i.e	% missed based on wait duration
+- Summary Table 
 
 ![front](https://lookerstudio.google.com/s/hg8QbvC6mmc)
 
@@ -202,10 +203,7 @@ Based on the analysis, I recommend:
 - Mock dataset lacked nuanced user behavior (e.g., churn signals)  
 - Maintaining consistent joins and CTE logic across all queries   -->
 
-<!-- ## Conclusion
-
-This analysis shows QuickSave has strong potential via Premium users and certain goal types, but currently relies on a small percentage of users for most revenue.  
-Data supports continued development with product optimization and targeted marketing. -->
+#development with product optimization and targeted marketing.
 
 <!-- ## Next Steps / Future Work
 
@@ -224,3 +222,7 @@ This project was created as part of a professional portfolio to demonstrate prac
 
 © 2025 | Susan Wanja | Data Analytics Portfolio -->
 
+# Conclusion
+
+This analysis shows QuickSave has strong potential via Premium users and certain goal types, but currently relies on a small percentage of users for most revenue.  
+Data supports continued 
