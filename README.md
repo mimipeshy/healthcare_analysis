@@ -186,13 +186,15 @@ A Looker Studio dashboard was created to summarize:
 
 https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60
 
-<!-- ## Recommendations
+## Recommendations
 
-1. Scale Premium acquisition – high ARPU and ROI per user  
-2. Target Free users with upsell campaigns  
-3. Streamline cost-to-serve operations for low-value users  
-4. Expand focus on top-performing goals (e.g., Retirement, Education)  
-5. Monitor break-even ratio quarterly to track sustainability -->
+Based on the analysis, I recommend:
+
+1. Shorten wait times between booking and appointments
+2. Test new SMS formats (e.g., conversational, emoji-rich, personalized)
+3. Target young adults with behaviorally informed reminders or incentives
+4. Add filters like day-of-week when overbooking to reduce loss
+5. Invest in deeper behavioral research, not just medical profiling
 
 <!-- ## Challenges Faced
 
