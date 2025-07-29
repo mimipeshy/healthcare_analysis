@@ -104,20 +104,12 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 - Looker Studio for visualization
 
-
-<!-- ## Data Cleaning & Preparation
-
-- Ensured referential integrity across user_id and goal_id  
-- Validated date formats and ensured complete monthly data  
-- Checked for missing values in financial columns (fee_amount)  
-- Verified consistent value ranges (e.g., realistic goal targets and fees) -->
-
-<!-- ## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - Monthly transaction and subscription volume trends  
 - Distribution of users by plan and user type  
 - Outlier detection in revenue and goal target amounts  
-- Correlation between target amount and transaction frequency -->
+- Correlation between target amount and transaction frequency
 
 
 ## Key Business Insights
@@ -204,21 +196,22 @@ Based on the analysis, I recommend:
 3. Target young adults with behaviorally informed reminders or incentives
 4. Add filters like day-of-week when overbooking to reduce loss
 5. Invest in deeper behavioral research, not just medical profiling
+6. Send SMS reminders to all patients, ideally 1 day before.
+7. Consider offering flexible scheduling options for young adults
 
-<!-- ## Challenges Faced
+## Challenges Faced
 
 - Interpreting user value with flat cost assumptions  
 - Mock dataset lacked nuanced user behavior (e.g., churn signals)  
-- Maintaining consistent joins and CTE logic across all queries   -->
+- Maintaining consistent joins and CTE logic across all queries  
 
-#development with product optimization and targeted marketing.
 
-<!-- ## Next Steps / Future Work
+## Next Steps / Future Work
 
 - Add churn and lifetime value modeling  
 - Automate profitability scoring using SQL procedures  
 - Introduce clustering for user behavior segmentation  
-- Develop goal conversion funnels and engagement scoring -->
+- Develop goal conversion funnels and engagement scoring
 
 <!-- ## Author & License
 
