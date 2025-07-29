@@ -29,7 +29,7 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 
 ## Project Overview
 
-To investigate behavioral and logistical factors contributing to patient no-shows, and provide data-driven recommendations for reducing missed appointments.
+This project explores a real-world healthcare dataset containing over 100,000 appointment records to identify the root causes of patient no-shows. By leveraging SQL for data cleaning and transformation, and conducting exploratory data analysis (EDA), the goal is to uncover patterns across demographics, scheduling behavior, and communication touchpoints. The outcome is to build actionable insights that healthcare providers can use to reduce missed appointments, improve operational efficiency, and enhance patient experience.
 
 
 ## Key Questions
@@ -85,6 +85,7 @@ To investigate behavioral and logistical factors contributing to patient no-show
 | ⏳ Wait Time     | Longer wait time = higher no-show rate| 
 | 🧒 Young Adults  | Most at-risk age group for missing appointments | 
 | 🩺 Health Conditions   | Not strong predictors of no-shows — behavior > medical|
+| 🏥 Clinic Location  | No-show rates vary by neighborhood |
 
 
 ## SQL Techniques Used
@@ -225,5 +226,5 @@ This project was created as part of a professional portfolio to demonstrate prac
 
 # Conclusion
 
-This analysis shows QuickSave has strong potential via Premium users and certain goal types, but currently relies on a small percentage of users for most revenue.  
-Data supports continued 
+This analysis provided valuable insights into patient appointment behaviors, highlighting key factors influencing no-shows such as long wait times, lack of SMS reminders, and certain demographic and medical conditions. By identifying patterns across neighborhoods, age groups, and appointment schedules, healthcare providers can take proactive steps to reduce missed appointments and improve resource planning. These findings lay the foundation for building predictive models and implementing targeted interventions to enhance patient engagement and operational efficiency. 
+
