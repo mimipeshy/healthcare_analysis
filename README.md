@@ -1,6 +1,6 @@
 # 🏥 Patient No-Show Analysis – SQL + Looker Studio
 
-This project analyzes a real-world dataset from Brazilian medical appointments to uncover patterns behind patient no-shows. Using SQL in BigQuery and visualized through Looker Studio, the goal is to provide actionable insights for improving patient attendance.
+This project analyzes a real-world dataset from Brazilian medical appointments to uncover patterns behind patient no-shows. Using SQL in BigInsight and visualized through Looker Studio, the goal is to provide actionable insights for improving patient attendance.
 
 <details>
 <summary><strong>📑 Table of Contents</strong></summary>
@@ -12,11 +12,11 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)  
 - [SQL Techniques Used](#sql-techniques-used)  
 - [Tools Used](#tools-used)
-- [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)  
-  - [Query 1: Total Revenue](#query-1-total-revenue-from-transaction-and-subscription-fees)  
-  - [Query 2: Revenue by Plan Type](#query-2-revenue-breakdown-by-plan-type-free-vs-premium)  
-  - [Query 3: Profitability Classification](#query-3-profitability-classification-using-cte--case)  
-  - [Query 4: Estimated ROI per User](#query-4-estimated-roi-per-user-assuming-5-costuser)  
+- [Key Business Insights](#key-business-insights)  
+  - [Insight 1: Overall No-Show Rate](#Insight-1-overal-no-show-rate)  
+  - [Insight 2: Revenue by Plan Type](#Insight-2-revenue-breakdown-by-plan-type-free-vs-premium)  
+  - [Insight 3: Profitability Classification](#Insight-3-profitability-classification-using-cte--case)  
+  - [Insight 4: Estimated ROI per User](#Insight-4-estimated-roi-per-user-assuming-5-costuser)  
 <!-- - [Data Visualization / Dashboard](#data-visualization--dashboard)   -->
 - [Recommendations](#recommendations)  
 <!-- - [Challenges Faced](#challenges-faced)   -->
@@ -121,16 +121,17 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 ## Key Business Insights
 
-### Insight 1: Overall No-Show Rate
-
+### Insight 1: Overall No-Show Rate 
 **Purpose:** Measures scale of the problem
 
 ![image](./images/summary.PNG)
 
 **Insight:**  
 - Longer wait times correlated with higher no-show rates.
-- Patients who waited more than 7 days had nearly double the no-show rate (28%) compared to those with shorter wait times.
-### Insight 1: Wait Time (Days Between Booking and Appointment)
+- High no-show rates occurred on Monday, Tuesday, Wednesday, and Friday.
+- Saturday had the highest no-show percentage (23%) but a very small sample size — only 39 appointments.
+
+### Insight 2: Wait Time (Days Between Booking and Appointment)
 
 **Purpose:** Measure the number o waiting days between scheduled date and appointment date
 
@@ -147,9 +148,10 @@ To investigate behavioral and logistical factors contributing to patient no-show
 ![image](./images/sms.PNG)
 
 **Insight:**  
-Premium users (266) contributed $1,793.96, averaging $6.74 per user
-Free users generated $2,790.16 total
-Despite being a smaller group, Premium users underperformed Free users in total revenue, indicating a potential pricing or feature value mismatch that warrants further investigation.
+- Suprisingly 62.3% of patients who received SMS reminders missed their appointments vs 37.7% for those who didn’t receive SMS.
+- Indicates that the current reminder strategy may not be effective or may even cause complacency.
+
+
 
 ### Insight 3: No-Show Rate by Age Group (Using CTE + CASE)
 
