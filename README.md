@@ -201,9 +201,11 @@ Based on the analysis, I recommend:
 
 ## Challenges Faced
 
-- Interpreting user value with flat cost assumptions  
-- Mock dataset lacked nuanced user behavior (e.g., churn signals)  
-- Maintaining consistent joins and CTE logic across all queries  
+- Date Formatting: ScheduledDay and AppointmentDay required conversion and timezone alignment.
+- Imbalanced Data: “Show” vs. “No-show” distribution was uneven, affecting analysis accuracy.
+- Limited Medical Context: Binary health conditions lacked detail (e.g. severity, treatment).
+- Tool Limitations: Looker Studio (web version) lacked Top N filters and flexible grouping options.
+- Outliers: Unusual values (e.g. age 0 or 115, extreme wait times) required cleaning or exclusion.
 
 
 ## Next Steps / Future Work
