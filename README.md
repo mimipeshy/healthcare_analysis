@@ -213,15 +213,15 @@ Based on the analysis, I recommend:
 - Introduce clustering for user behavior segmentation  
 - Develop goal conversion funnels and engagement scoring
 
-<!-- ## Author & License
+## Author & License
 
 This project was created as part of a professional portfolio to demonstrate practical financial analytics using SQL & Power BI.
 
-- TikTok: [@wanja_analyst](https://www.tiktok.com/@wanja_analyst)
-- GitHub: [https://github.com/wanja-susan](https://github.com/wanja-susan)    
-- LinkedIn: [Susan Wanja Kariuki](https://www.linkedin.com/in/susan-wanja-1b63a6234/)  
+<!-- - TikTok: [@](https://www.tiktok.com/@) -->
+- GitHub: [https://github.com/mimipeshy](https://github.com/mimipeshy)    
+- LinkedIn: [Peris Ndanu ](https://www.linkedin.com/in/peris-ndanu)  
 
-© 2025 | Susan Wanja | Data Analytics Portfolio -->
+© 2025 | Peris Ndanu | Data Analytics Portfolio
 
 # Conclusion
 
