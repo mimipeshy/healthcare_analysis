@@ -184,7 +184,7 @@ A Looker Studio dashboard was created to summarize:
 - No-Show Rate by Wait Time Bracket i.e	% missed based on wait duration
 - Summary Table 
 
-![front](https://lookerstudio.google.com/s/hg8QbvC6mmc)
+![Looker Dashboard](https://lookerstudio.google.com/s/hg8QbvC6mmc)
 
 https://www.loom.com/share/9c4bf82adcf045fd9631860c1b53e5db?sid=8b21dc54-17ed-4bf1-8098-f982c4a33701
 
