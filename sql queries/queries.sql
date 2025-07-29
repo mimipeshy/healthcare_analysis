@@ -1,3 +1,15 @@
+/* Calculate Wait Time (Days Between Scheduling & Appointment*/
+SELECT 
+  patient_id,
+  DATE(ScheduledDay) AS scheduled_date,
+  DATE(AppointmentDay) AS appointment_date,
+  DATE_DIFF(DATE(AppointmentDay), DATE(ScheduledDay), DAY) AS wait_days
+FROM vw_clean_appointments
+
+
+
+
+
 /*No-Show Rate by SMS Reminder*/
 
 SELECT
