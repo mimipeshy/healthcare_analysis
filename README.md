@@ -186,7 +186,7 @@ A Looker Studio dashboard was created to summarize:
 
 ![front](https://lookerstudio.google.com/s/hg8QbvC6mmc)
 
-https://github.com/user-attachments/assets/05616ccf-2ca4-4423-be76-e18d7a2dcd60
+https://www.loom.com/share/9c4bf82adcf045fd9631860c1b53e5db?sid=8b21dc54-17ed-4bf1-8098-f982c4a33701
 
 ## Recommendations
 
