@@ -20,9 +20,9 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
   - [Insight 5: Day of Week Patterns](#insight-5-day-of-week-patterns) 
 <!-- - [Data Visualization / Dashboard](#data-visualization--dashboard)   -->
 - [Recommendations](#recommendations)  
-<!-- - [Challenges Faced](#challenges-faced)   -->
+- [Challenges Faced](#challenges-faced)  
 - [Conclusion](#conclusion)  
-<!-- - [Next Steps / Future Work](#next-steps--future-work)   -->
+- [Next Steps / Future Work](#next-steps--future-work)  
 - [Author & License](#author--license)
 
 </details>
@@ -210,10 +210,8 @@ Based on the analysis, I recommend:
 
 ## Next Steps / Future Work
 
-- Add churn and lifetime value modeling  
-- Automate profitability scoring using SQL procedures  
-- Introduce clustering for user behavior segmentation  
-- Develop goal conversion funnels and engagement scoring
+- Model Deployment: Build and deploy a no-show prediction model using classification algorithms.
+- Feature Engineering: Incorporate external data (e.g., weather, traffic, holidays) and patient behavior (e.g., appointment history, wait time tolerance).
 
 ## Author & License
 
