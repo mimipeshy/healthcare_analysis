@@ -7,9 +7,6 @@ SELECT
 FROM vw_clean_appointments
 
 
-
-
-
 /*No-Show Rate by SMS Reminder*/
 
 SELECT

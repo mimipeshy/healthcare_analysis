@@ -122,34 +122,43 @@ To investigate behavioral and logistical factors contributing to patient no-show
 - Correlation between target amount and transaction frequency -->
 
 
-## Key SQL Queries & Business Insights
+## Key Business Insights
 
-### Query 1: Wait Time (Days Between Booking and Appointment)
+### Insight 1: Overall No-Show Rate
+
+**Purpose:** Measures scale of the problem
+
+![image](./images/wait%20time%20vs%20noshow.PNG)
+
+**Insight:**  
+- Longer wait times correlated with higher no-show rates.
+- Patients who waited more than 7 days had nearly double the no-show rate (28%) compared to those with shorter wait times.
+### Insight 1: Wait Time (Days Between Booking and Appointment)
 
 **Purpose:** Measure the number o waiting days between scheduled date and appointment date
 
-![image](https://github.com/user-attachments/assets/b7d0a92f-85c7-4b7e-8b96-69b47944ec38)
+![image](./images/wait%20time%20vs%20noshow.PNG)
 
 **Insight:**  
 - Longer wait times correlated with higher no-show rates.
 - Patients who waited more than 7 days had nearly double the no-show rate (28%) compared to those with shorter wait times.
 
-### Query 2: Revenue Breakdown by Plan Type (Free vs Premium)
+### Insight 2: No-Show Rate by SMS Reminder
 
-**Purpose:** Evaluate how user plans contribute to overall revenue.
+**Purpose:** Tests effectiveness of SMS outreach and Compare those who got reminders vs. not
 
-![image](https://github.com/user-attachments/assets/9cf13184-fa5a-4dad-b65a-6813ff1c6c63)
+![image](./images/sms.PNG)
 
 **Insight:**  
 Premium users (266) contributed $1,793.96, averaging $6.74 per user
 Free users generated $2,790.16 total
 Despite being a smaller group, Premium users underperformed Free users in total revenue, indicating a potential pricing or feature value mismatch that warrants further investigation.
 
-### Query 3: Profitability Classification (Using CTE + CASE)
+### Insight 3: No-Show Rate by Age Group (Using CTE + CASE)
 
-**Purpose:** Categorize users into profitability tiers based on their revenue contribution.
+**Purpose:** Identifies at-risk age groups
 
-![image](https://github.com/user-attachments/assets/ee8faa7b-5f9a-48da-9dc2-1cd160e3c35b)
+![image](./images/age.PNG)
 
 **Insight:**  
 Users were grouped as:
@@ -161,7 +170,7 @@ Only 369 out of 1000 users (36.9%) reached break-even or better.
 Most users incurred more cost than revenue, signaling retention or engagement challenges.
 
 
-### Query 4: Estimated ROI Per User (Assuming $5 Cost/User)
+### : Estimated ROI Per User (Assuming $5 Cost/User)
 
 **Purpose:** Estimate ROI using total revenue minus assumed operating cost.
 
