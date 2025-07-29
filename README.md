@@ -214,6 +214,10 @@ Based on the analysis, I recommend:
 - Model Deployment: Build and deploy a no-show prediction model using classification algorithms.
 - Feature Engineering: Incorporate external data (e.g., weather, traffic, holidays) and patient behavior (e.g., appointment history, wait time tolerance).
 
+# Conclusion
+
+This analysis provided valuable insights into patient appointment behaviors, highlighting key factors influencing no-shows such as long wait times, lack of SMS reminders, and certain demographic and medical conditions. By identifying patterns across neighborhoods, age groups, and appointment schedules, healthcare providers can take proactive steps to reduce missed appointments and improve resource planning. These findings lay the foundation for building predictive models and implementing targeted interventions to enhance patient engagement and operational efficiency. 
+
 ## Author & License
 
 This project was created as part of a professional portfolio to demonstrate practical financial analytics using SQL & Power BI.
@@ -222,9 +226,4 @@ This project was created as part of a professional portfolio to demonstrate prac
 - GitHub: [https://github.com/mimipeshy](https://github.com/mimipeshy)    
 - LinkedIn: [Peris Ndanu ](https://www.linkedin.com/in/peris-ndanu)  
 
-© 2025 | Peris Ndanu | Data Analytics Portfolio
-
-# Conclusion
-
-This analysis provided valuable insights into patient appointment behaviors, highlighting key factors influencing no-shows such as long wait times, lack of SMS reminders, and certain demographic and medical conditions. By identifying patterns across neighborhoods, age groups, and appointment schedules, healthcare providers can take proactive steps to reduce missed appointments and improve resource planning. These findings lay the foundation for building predictive models and implementing targeted interventions to enhance patient engagement and operational efficiency. 
-
+© 2025 | Peris Ndanu | Data Analytics Portfolio| 
