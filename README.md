@@ -18,7 +18,7 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
   - [Insight 3: No-Show Rate by SMS Reminder (Unexpected Trend)](#insight-3-no-show-rate-by-sms-reminder-unexpected-trend)  
   - [Insight 4: No-Show Rate by Age Group ](#insight-4-no-show-rate-by-age-group)  
   - [Insight 5: Day of Week Patterns](#insight-5-day-of-week-patterns) 
-<!-- - [Data Visualization / Dashboard](#data-visualization--dashboard)   -->
+- [Data Visualization / Dashboard](#data-visualization--dashboard)  
 - [Recommendations](#recommendations)  
 - [Challenges Faced](#challenges-faced)  
 - [Conclusion](#conclusion)  
@@ -184,7 +184,7 @@ A Looker Studio dashboard was created to summarize:
 - No-Show Rate by Wait Time Bracket i.e	% missed based on wait duration
 - Summary Table 
 
-![Looker Dashboard](https://lookerstudio.google.com/s/hg8QbvC6mmc)
+[Looker Dashboard](https://lookerstudio.google.com/s/hg8QbvC6mmc)
 
 https://www.loom.com/share/9c4bf82adcf045fd9631860c1b53e5db?sid=8b21dc54-17ed-4bf1-8098-f982c4a33701
 
