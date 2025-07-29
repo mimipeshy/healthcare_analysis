@@ -13,10 +13,11 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [SQL Techniques Used](#sql-techniques-used)  
 - [Tools Used](#tools-used)
 - [Key Business Insights](#key-business-insights)  
-  - [Insight 1: Overall No-Show Rate](#Insight-1-overal-no-show-rate)  
-  - [Insight 2: Revenue by Plan Type](#Insight-2-revenue-breakdown-by-plan-type-free-vs-premium)  
-  - [Insight 3: Profitability Classification](#Insight-3-profitability-classification-using-cte--case)  
-  - [Insight 4: Estimated ROI per User](#Insight-4-estimated-roi-per-user-assuming-5-costuser)  
+  - [Insight 1: Overall No-Show Rate](#insight-1-overall-no-show-rate)  
+  - [Insight 2: Wait Time (Days Between Booking and Appointment)](#insight-2-wait-time-days-between-booking-and-appointment)  
+  - [Insight 3: No-Show Rate by SMS Reminder (Unexpected Trend)](#insight-3-no-show-rate-by-sms-reminder-unexpected-trend)  
+  - [Insight 4: No-Show Rate by Age Group ](#insight-4-no-show-rate-by-age-group)  
+  - [Insight 5: Day of Week Patterns](#insight-5-day-of-week-patterns) 
 <!-- - [Data Visualization / Dashboard](#data-visualization--dashboard)   -->
 - [Recommendations](#recommendations)  
 <!-- - [Challenges Faced](#challenges-faced)   -->
@@ -141,7 +142,7 @@ To investigate behavioral and logistical factors contributing to patient no-show
 - Longer wait times correlated with higher no-show rates.
 - Patients who waited more than 7 days had nearly double the no-show rate (28%) compared to those with shorter wait times.
 
-### Insight 2: No-Show Rate by SMS Reminder
+### Insight 3: No-Show Rate by SMS Reminder (Unexpected Trend)
 
 **Purpose:** Tests effectiveness of SMS outreach and Compare those who got reminders vs. not
 
@@ -153,9 +154,10 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 
 
-### Insight 3: No-Show Rate by Age Group (Using CTE + CASE)
+### Insight 4: No-Show Rate by Age Group 
 
 **Purpose:** Identifies at-risk age groups
+
 
 ![image](./images/age.PNG)
 
@@ -166,16 +168,17 @@ To investigate behavioral and logistical factors contributing to patient no-show
 different set of factors influencing their behavior.
 - This age group may be a good target for outreach and engagement efforts.
 
-### : Estimated ROI Per User (Assuming $5 Cost/User)
+### Insight 5: Day of Week Patterns
 
 **Purpose:** Estimate ROI using total revenue minus assumed operating cost.
 
-![image](https://github.com/user-attachments/assets/c89c263b-ff24-4bbd-b52b-fbcb58e509e4)
+![image](./images/day_of_week.PNG)
 
 **Insight:**  
-- ROI leaders generated $40–45+ per user in value  
-- However, about 63% of users were unprofitable (ROI < 0)  
-These results reinforce the need for better segmentation, smarter onboarding, and more Premium upgrades.
+- High no-show rates occurred on Monday, Tuesday, Wednesday, and Friday.
+- Saturday had the highest no-show percentage (23%) but a very small sample size — only 39 appointments.
+- This may indicate a scheduling bias or other factors at play.
+- Further investigation is needed to understand these patterns.
 
 
 ## Data Visualization / Dashboard
