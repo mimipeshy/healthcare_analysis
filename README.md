@@ -128,7 +128,7 @@ To investigate behavioral and logistical factors contributing to patient no-show
 
 **Purpose:** Measures scale of the problem
 
-![image](./images/wait%20time%20vs%20noshow.PNG)
+![image](./images/summary.PNG)
 
 **Insight:**  
 - Longer wait times correlated with higher no-show rates.
