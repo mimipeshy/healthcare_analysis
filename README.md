@@ -160,14 +160,11 @@ To investigate behavioral and logistical factors contributing to patient no-show
 ![image](./images/age.PNG)
 
 **Insight:**  
-Users were grouped as:
-- Profitable: ≥ $10  
-- Marginal: $5–9.99  
-- Loss: < $5  
-
-Only 369 out of 1000 users (36.9%) reached break-even or better.  
-Most users incurred more cost than revenue, signaling retention or engagement challenges.
-
+- Young adults exhibited the highest no-show rates, suggesting age-related behavioral trends.
+- This age group may require targeted strategies to improve appointment adherence.
+- Older adults (65+) had the lowest no-show rate (15.3%), indicating a potentially
+different set of factors influencing their behavior.
+- This age group may be a good target for outreach and engagement efforts.
 
 ### : Estimated ROI Per User (Assuming $5 Cost/User)
 
