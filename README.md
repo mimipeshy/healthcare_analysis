@@ -2,9 +2,6 @@
 
 This project analyzes a real-world dataset from Brazilian medical appointments to uncover patterns behind patient no-shows. Using SQL in BigQuery and visualized through Looker Studio, the goal is to provide actionable insights for improving patient attendance.
 
-
-![image]()
-
 <details>
 <summary><strong>📑 Table of Contents</strong></summary>
 
@@ -16,14 +13,14 @@ This project analyzes a real-world dataset from Brazilian medical appointments t
 - [SQL Techniques Used](#sql-techniques-used)  
 - [Tools Used](#tools-used)
 - [Key SQL Queries & Business Insights](#key-sql-queries--business-insights)  
-  <!-- - [Query 1: Total Revenue](#query-1-total-revenue-from-transaction-and-subscription-fees)   -->
-  <!-- - [Query 2: Revenue by Plan Type](#query-2-revenue-breakdown-by-plan-type-free-vs-premium)   -->
-  <!-- - [Query 3: Profitability Classification](#query-3-profitability-classification-using-cte--case)   -->
-  <!-- - [Query 4: Estimated ROI per User](#query-4-estimated-roi-per-user-assuming-5-costuser)   -->
+  - [Query 1: Total Revenue](#query-1-total-revenue-from-transaction-and-subscription-fees)  
+  - [Query 2: Revenue by Plan Type](#query-2-revenue-breakdown-by-plan-type-free-vs-premium)  
+  - [Query 3: Profitability Classification](#query-3-profitability-classification-using-cte--case)  
+  - [Query 4: Estimated ROI per User](#query-4-estimated-roi-per-user-assuming-5-costuser)  
 <!-- - [Data Visualization / Dashboard](#data-visualization--dashboard)   -->
-<!-- - [Recommendations](#recommendations)   -->
+- [Recommendations](#recommendations)  
 <!-- - [Challenges Faced](#challenges-faced)   -->
-<!-- - [Conclusion](#conclusion)   -->
+- [Conclusion](#conclusion)  
 <!-- - [Next Steps / Future Work](#next-steps--future-work)   -->
 - [Author & License](#author--license)
 
